@@ -1,6 +1,18 @@
 {
-    "platforms": {},
-    "plugins": {},
+    "platforms": {
+        "android": {
+            "reactNativeEngine": "hermes"
+        }
+    },
+    "plugins": {
+        "react": "source:rnv",
+        "react-art": "source:rnv",
+        "react-dom": "source:rnv",
+        "react-native": "source:rnv",
+        "@react-native-community/cli-platform-ios": "source:rnv",
+        "@react-native-community/cli": "source:rnv",
+        "react-native-vector-icons": "source:rnv"
+    },
     "extendsTemplate": "renative.json",
     "projectName": "emptyRenative",
     "workspaceID": "rnv",
@@ -19,6 +31,5 @@
         }
     },
     "currentTemplate": "renative-template-blank",
-    "isNew": true,
     "isMonorepo": false
 }

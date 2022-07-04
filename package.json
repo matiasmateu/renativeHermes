@@ -1,5 +1,29 @@
 {
-  "dependencies": {
-    "renative-template-blank": "0.35.4"
-  }
+    "name": "emptyRenative",
+    "version": "0.1.0",
+    "dependencies": {
+        "@react-native-community/cli": "^4.10.0",
+        "babel-preset-expo": "^9.1.0",
+        "hash-source": "1.0.4",
+        "react": "17.0.2",
+        "react-art": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-native": "0.63.4",
+        "react-native-gesture-handler": "1.4.1",
+        "react-native-reanimated": "1.13.3",
+        "react-native-vector-icons": "8.1.0",
+        "react-native-web-image-loader": "0.0.5",
+        "renative": "0.35.4"
+    },
+    "devDependencies": {
+        "@rnv/engine-rn": "0.35.4",
+        "jetifier": "1.6.5",
+        "renative-template-blank": "0.35.4",
+        "renative-template-hello-world": "^0.35.4",
+        "rnv": "0.35.4",
+        "xcode": "2.1.0"
+    },
+    "optionalDependencies": {
+        "ios-deploy": "1.11.4"
+    }
 }

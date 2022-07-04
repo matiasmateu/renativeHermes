@@ -1,0 +1,56 @@
+{
+    "id": "blank",
+    "common": {
+        "id": "com.mycompany.emptyrenative",
+        "title": "Hello Renative",
+        "description": "Cross-platform application project based on ReNative",
+        "license": "MIT",
+        "includedPlugins": [
+            "*"
+        ],
+        "includedFonts": [
+            "*"
+        ],
+        "includedPermissions": [
+            "INTERNET"
+        ],
+        "backgroundColor": "#FFFFFF"
+    },
+    "platforms": {
+        "ios": {
+            "entryFile": "index",
+            "permissions": [
+                "*"
+            ],
+            "buildSchemes": {
+                "debug": {
+                    "runScheme": "Debug",
+                    "bundleAssets": false
+                },
+                "release": {
+                    "runScheme": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": false
+                }
+            }
+        },
+        "android": {
+            "entryFile": "index",
+            "reactNativeEngine": "hermes",
+            "permissions": [
+                "*"
+            ],
+            "buildSchemes": {
+                "debug": {
+                    "signingConfig": "Debug",
+                    "bundleAssets": false
+                },
+                "release": {
+                    "signingConfig": "Release",
+                    "bundleAssets": true,
+                    "bundleIsDev": true
+                }
+            }
+        }
+    }
+}
