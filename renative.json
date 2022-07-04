@@ -1,0 +1,24 @@
+{
+    "platforms": {},
+    "plugins": {},
+    "extendsTemplate": "renative.json",
+    "projectName": "emptyRenative",
+    "workspaceID": "rnv",
+    "defaults": {
+        "title": "Hello Renative",
+        "id": "com.mycompany.emptyrenative",
+        "supportedPlatforms": [
+            "ios",
+            "android"
+        ]
+    },
+    "engines": {},
+    "templates": {
+        "renative-template-blank": {
+            "version": "0.35.4"
+        }
+    },
+    "currentTemplate": "renative-template-blank",
+    "isNew": true,
+    "isMonorepo": false
+}
